@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main_code.o" --strict --scatter "Disp_A.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Disp_A.map" -o Disp_A.axf
